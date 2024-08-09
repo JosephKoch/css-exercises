@@ -8,3 +8,13 @@
     font-size: 24px;
 }
 
+#d1 {
+    color: blue;
+    font-size: 36px;
+}
+
+#d2 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
