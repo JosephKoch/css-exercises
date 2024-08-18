@@ -8,6 +8,8 @@
   background: papayawhip;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: .25rem;
 }
 
 .logo {
@@ -16,13 +18,11 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  margin: 0.5rem auto;
 }
 
 ul {
   display: flex;
   gap: 1rem;
-  margin: 0 .5rem;
 }
 
 ul {
