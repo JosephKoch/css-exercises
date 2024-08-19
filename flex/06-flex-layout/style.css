@@ -27,7 +27,7 @@ input {
 
 /* solution */
 
-ul {
+/* ul {
   list-style-type: none;
   padding: 0;
 }
@@ -54,7 +54,9 @@ a:link {
 
 .left-links {
   display: flex;
-  gap: 2rem;}
+  gap: 2rem;
+  justify-content: space-between;
+}
 
 .right-links {
   display: flex;
@@ -66,10 +68,54 @@ a:link {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  flex: 1;
+  justify-content: center;
 }
 
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background: #eee;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
 }
