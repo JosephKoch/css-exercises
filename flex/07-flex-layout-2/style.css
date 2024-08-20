@@ -54,7 +54,8 @@ body {
 }
 .sidebar {
   padding: 16px;
-  min-width: 300px;
+  /* min-width: 300px; */
+  flex-shrink: 0;
 }
 
 .cards {
@@ -67,7 +68,7 @@ body {
 
 .card {
   width: 300px;
-  min-height: 200px;
+  /* min-height: 200px; */
   padding: 1rem;
 }
 
